@@ -6,8 +6,14 @@ The module only has:
 Korean to English
 English to Korean
 
-# PYKO
-This is how you use it you type module. and then the language you are typing in.
+# How to use
+
+This is how you use it 
+
+You import it as:
+module
+
+you type module. and then the language you are typing in.
 
 EX:
 module.english.korean()
