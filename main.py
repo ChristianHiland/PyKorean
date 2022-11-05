@@ -6,4 +6,4 @@ if type == 'English':
 elif type == 'Korean':
     module.korean.english()
 else:
-    print("Sorry we don't have that one. :(")
+    print("Sorry we don't have that language. :(")
