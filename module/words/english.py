@@ -256,7 +256,6 @@ def korean():
         print("This Means:")
         print("Close")
         print("닫요")
-        print("tayo")
         print("/////////////////////")
     elif word == 'calendar':
         print("This Means:")
