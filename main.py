@@ -11,7 +11,7 @@ main.title("Main Window")
 
 #defining the actions for the buttons.
 def english():
-   module.english.korean()
+   module.english.koreantk()
     
 def korean():
     module.korean.english()
