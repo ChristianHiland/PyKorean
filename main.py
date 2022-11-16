@@ -1,11 +1,23 @@
 import module
-type = input("What langage are you from? ")
+from tkinter import tk
 
-if type == 'English':
-    module.english.korean()
-    print("Here you go.")
-elif type == 'Korean':
+main = Tk()
+
+#defining the actions for the buttons.
+def english():
+   module.english.korean()
+def korean():
     module.korean.english()
-    print("Here you go.")
-else:
-    print("Sorry we don't have that language. :(")
+
+#The buttons
+E = Tkinter.Button(top, text ="English", command = english)
+K = Tkinter.Button(top, text = "Korean", command = korean)
+
+#Showing the elements.
+E.pack()
+K.pack()
+
+#If this is not here the window will not stay opened.
+main.mainloop()
+
+type = input("What langage are you from? ")
