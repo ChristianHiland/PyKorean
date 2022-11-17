@@ -1,36 +1,46 @@
 # This contans the words in Korean
-#Importing tkinter
+
+# Importing tkinter
 import tkinter as tk
 
 def koreantk():
-    #Windows & Settings
+    
+    # Windows & Settings
     english= Tk
     english.geometry("600X400")
     english.title("English")
+    
     # Actions
     def inputword():
-        word=entry.get()
+        words = Tkinter_variable(english, value = E.get())
         korean()
     def back():
         english.destroy
-    # Labels    
+        
+    # Labels
     ET = Label(master, text = "Words:")
+    
     # Grids
     ET.grid(row = 0, column = 0, sticky = W, pady = 2)
     B.grid(row = 2, column = 2, sticky = E)
-    # Entry Widget        
+    
+    # Entry Widget
     E = tk.Entry(english)
     E.grid(row = 0, column = 1, pady = 2)
+    
     # Buttons
     EN = tk.Button(english, text="Enter", command= inputword)
     B = tk.Button(english, text="Back", command= back)
+    
     # Showing the elements
     ET.pack()
     E.pack()
     EN.pack()
     B.pack()
+    english.mainloop()
     
 def korean():
+    
     if word == 'hello':
         Label(english, text"hello").pack
         Label(english, text"안녕하세요").pack
