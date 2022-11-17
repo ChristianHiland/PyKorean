@@ -14,7 +14,7 @@ def koreantk():
     def back():
         english.destroy
     # Entry Widget        
-    E = tk.Entry(english, width=40)
+    E = tk.Entry(english, text='First Name', width=20)
     # Buttons
     EN = tk.Button(english, text="Enter", command= inputword)
     B = tk.Button(english, text="Back", command= back)
