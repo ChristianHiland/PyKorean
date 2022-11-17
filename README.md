@@ -17,6 +17,6 @@ module
 you type module. and then the language you are typing in.
 
 EX:
-module.english.korean()
+module.english.koreantk()
 
-english is the language that you are typing from. and then korean is the ouput language.
+English is the language that you are typing from. and then Koreantk is the ouput language.
