@@ -9,16 +9,23 @@ def koreantk():
     english.title("English")
     # Actions
     def inputword():
-            word=entry.get()
-            korean()
+        word=entry.get()
+        korean()
     def back():
         english.destroy
+    # Labels    
+    ET = Label(master, text = "Words:")
+    # Grids
+    ET.grid(row = 0, column = 0, sticky = W, pady = 2)
+    B.grid(row = 2, column = 2, sticky = E)
     # Entry Widget        
-    E = tk.Entry(english, text='First Name', width=20)
+    E = tk.Entry(english)
+    E.grid(row = 0, column = 1, pady = 2)
     # Buttons
     EN = tk.Button(english, text="Enter", command= inputword)
     B = tk.Button(english, text="Back", command= back)
     # Showing the elements
+    ET.pack()
     E.pack()
     EN.pack()
     B.pack()
