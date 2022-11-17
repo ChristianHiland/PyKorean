@@ -7,10 +7,10 @@ about.title("About")
 # Actions
 
 # Labels
-Label(about, text="This is a Korean dictionary that I made called, PyKorean. It's coded in Python").pack
-
+A = Label(about, text="This is a Korean dictionary that I made called, PyKorean. It's coded in Python").pack
 # Button
-
+B = Button(root, text="Back", command=about.destroy)
 # Showing the elements
-
+A.pack()
+B.pack()
 about.mainloop()
