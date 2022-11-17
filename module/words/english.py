@@ -2,6 +2,7 @@
 
 # Import modules
 import tkinter as tk
+import camelcase
 
 def koreantk():
     
