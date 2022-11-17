@@ -3,22 +3,26 @@
 import tkinter as tk
 
 def koreantk():
-    #Making the instance
+    #Windows & Settings
     english= Tk
-    #Setting the geometry of the window
     english.geometry("600X400")
-    #Defining the vars
-    word_var=tk.StringVar()
+    english.title("English")
+    # Actions
     def inputword():
             word=entry.get()
             korean()
-    #Creating a Entry Widget        
-    entry= tk.Entry(english, width=40)
-    entry.pack()
-    #Creating the button that gets input from the Entry Widget.
-    enter= tk.Button(english, text="Enter", command= inputword)
-    enter.pack()
-
+    def back():
+        english.destroy
+    # Entry Widget        
+    E = tk.Entry(english, width=40)
+    # Buttons
+    EN = tk.Button(english, text="Enter", command= inputword)
+    B = tk.Button(english, text="Back", command= back)
+    # Showing the elements
+    E.pack()
+    EN.pack()
+    B.pack()
+    
 def korean():
     if word == 'hello':
         Label(english, text"안녕하세요").pack
