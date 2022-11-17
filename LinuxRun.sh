@@ -1,5 +1,5 @@
 echo "Installing"
 sudo apt install pip
-pip install mysql-connector-python
+pip install camelcase
 echo "Running"
 python3 main.py
