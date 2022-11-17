@@ -1,2 +1,2 @@
 echo "Running"
-python3 SCRIPTNAME.py
+python3 main.py
