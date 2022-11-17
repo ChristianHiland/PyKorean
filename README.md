@@ -20,3 +20,5 @@ EX:
 module.english.koreantk()
 
 English is the language that you are typing from. and then Koreantk is the ouput language.
+
+The Koreantk is to help with organization with Tkinter tk is for Tkinter.
