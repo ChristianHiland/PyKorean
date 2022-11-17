@@ -1,28 +1,25 @@
-#importing the modules
+# Importing the modules
 import module
 from tkinter import tk
-
-#Making the window name
+# Making the window name
 main = Tk()
-
 # setting the windows size
 main.geometry("600x400")
 main.title("Main Window")
-
-#defining the actions for the buttons.
+# Actions
 def english():
    module.english.koreantk()
-    
 def korean():
     module.korean.english()
-
-#The buttons
-E = Tkinter.Button(top, text ="English", command = english)
-K = Tkinter.Button(top, text = "Korean", command = korean)
-
-#Showing the elements.
+def about():
+   module.about.about()
+# The buttons
+E = Tkinter.Button(main, text ="English", command = english)
+K = Tkinter.Button(main, text = "Korean", command = korean)
+A = Tkinter.Button(main, text ="About", command = about)
+# Showing the elements.
 E.pack()
 K.pack()
-
-#If this is not here the window will not stay opened.
+A.pack()
+# If this is not here the window will not stay opened.
 main.mainloop()
