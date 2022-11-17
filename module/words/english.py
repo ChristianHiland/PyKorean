@@ -95,30 +95,21 @@ def korean():
         Label(english, text"자망").pack
     elif word == 'no':
         Label(english, text"아니요").pack
-        print("아니요")
     elif word == 'tear':
         Label(english, text"눈물").pack
-        print("눈물")
     elif word == 'news':
         Label(english, text"뉴스").pack
-        print("뉴스")
     elif word == 'all':
         Label(english, text"다").pack
-        print("다")
     elif word == 'attend':
         Label(english, text"다니요").pack
-        print("다니요")
     elif word == 'leg':
         Label(english, text"다리").pack
-        print("다리")
     elif word == 'word':
         Label(english, text"단어").pack
-        print("단어")
     elif word == 'close':
         Label(english, text"닫요").pack
-        print("닫요")
     elif word == 'calendar':
         Label(english, text"달력").pack
-        print("달력")
     else:
         Label(english, text"Opps we don't have that one, check again.").pack
