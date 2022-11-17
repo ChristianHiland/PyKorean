@@ -1,6 +1,6 @@
 # This contans the words in Korean
 
-# Importing tkinter
+# Import modules
 import tkinter as tk
 
 def koreantk():
