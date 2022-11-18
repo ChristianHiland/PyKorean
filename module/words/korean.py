@@ -132,11 +132,6 @@ def english():
         print("Buy")
         print("사요")
         print("/////////////////////")
-    elif word == '쓰요':
-        print("This Means:")
-        print("Wite or use")
-        print("쓰요")
-        print("/////////////////////")
     elif word == '우요':
         print("This Means:")
         print("Laugh")
@@ -202,11 +197,6 @@ def english():
         print("No")
         print("아니요")
         print("/////////////////////")
-    elif word == "몰라요":
-        print("This Means:")
-        print("I don't know")
-        print("몰라요")
-        print("/////////////////////")
     elif word == '눈물':
         print("This Means:")
         print("Tear")
@@ -236,11 +226,6 @@ def english():
         print("This Means:")
         print("Attend")
         print("다니요")
-        print("/////////////////////")
-    elif word == '다르요':
-        print("This Means:")
-        print("Be different")
-        print("다르요")
         print("/////////////////////")
     elif word == '다리':
         print("This Means:")
