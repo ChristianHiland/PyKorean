@@ -1,7 +1,7 @@
 # PyKorean
 It's a Korean dictionary, but in Python for projects that are in need of Korean to English or any other I put!
 
-The module only has:
+The module has:
 
 Korean to English
 
