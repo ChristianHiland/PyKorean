@@ -1,4 +1,6 @@
 
+[Nov, 18 2022 7:23]
+
 rune@RuneHiland:~/Documents/Code/Python/PyKorean$/bin/python3 /home/rune/Documents/Code/Python/PyKorean/main.py
 Exception in Tkinter callback
 Traceback (most recent call last):
