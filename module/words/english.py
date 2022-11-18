@@ -12,6 +12,7 @@ def korean():
     # Actions
     def inputword():
         word = E.get()
+        koreanw()
         def koreanw():
             if word == 'hello':
                 tk.Label(english, text="hello").pack
