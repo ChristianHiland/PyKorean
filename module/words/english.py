@@ -2,34 +2,26 @@
 
 from tkinter import W
 
-
 def korean():
-
     # Importing tkinter
     import tkinter as tk
-
     # Windows & Settings
     english= tk.Tk()
     english.geometry("600x400")
     english.title("English")
-
     # Actions
     def inputword():
         word = E.get()
         korean
     def back():
         english.destroy
-
     # Labels
     ET = tk.Label(english, text = "Words:")
-
     # Entry Widget
     E = tk.Entry(english)
-
     # Buttons
     EN = tk.Button(english, text="Enter", command= inputword)
     B = tk.Button(english, text="Back", command= back)
-
     # Showing the elements
     ET.pack()
     E.pack()
