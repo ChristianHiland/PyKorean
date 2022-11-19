@@ -1,5 +1,5 @@
 #This is the English version where it's Korean to English
-
+#beeep boop
 def english():
     word = input("단어: ")
     if word == '안녕하세요':
