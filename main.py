@@ -1,29 +1,46 @@
-# Importing the modules
-import module
+#importing the modules and tkinter
+from tkinter.ttk import Progressbar
+from tkinter import *
 import tkinter as tk
-# Making the window name
-main = tk.Tk()
-# setting the windows size
-main.geometry("400x400")
-main.title("Main Window")
+import time
+import files
+
+# Setting up the window
+start= tk.Tk()
+start.geometry("400x200")
+start.title("Download Window")
+
 # Actions
-def english():
-   module.english.korean()
-def korean():
-    module.korean.english()
-def about():
-   module.about.about()
-def quit():
-   main.destroy
-# The buttons
-E = tk.Button(main, text ="English", command = english)
-K = tk.Button(main, text = "Korean", command = korean)
-A = tk.Button(main, text ="About", command = about)
-Q = tk.Button(main, text ="Quit", command = quit)
-# Showing the elements.
-E.pack()
-K.pack()
-A.pack()
-Q.pack()
-# If this is not here the window will not stay opened.
-main.mainloop()
+def startbar():
+    lang = 100
+    x = 0
+    while(x <lang):
+        time.sleep(0.01)
+        bar["value"]+=1
+        x+=1
+        taskdone.set(str(int((x/lang)*100))+"%")
+        text.set(str(x)+"/"+str(lang)+" loaded")
+        start.update_idletasks()
+        if (x==lang):
+            files.homeh.home()
+taskdone = StringVar()
+text = StringVar()
+
+# Progressbar
+bar = Progressbar(start, orient=HORIZONTAL, length=300)
+
+# Labels
+percentlabel = Label(start, textvariable=taskdone)
+tasklabel = Label(start, textvariable=text)
+
+# Buttons
+startbu=Button(start, text="Click here to start", command=startbar)
+
+# Showing the elements
+bar.pack(pady=20)
+percentlabel.pack()
+tasklabel.pack()
+startbu.pack(pady=40)
+    
+# Main.loop
+start.mainloop()
