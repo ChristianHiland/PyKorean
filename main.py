@@ -1,8 +1,7 @@
 #importing the modules and tkinter
-from tkinter.ttk import Progressbar
-from tkinter import *
 import tkinter as tk
 import time
+from tkinter.ttk import Progressbar
 import files
 
 # Setting up the window
@@ -22,19 +21,20 @@ def startbar():
         text.set(str(x)+"/"+str(lang)+" loaded")
         start.update_idletasks()
         if (x==lang):
+            start.destroy()
             files.homeh.home()
-taskdone = StringVar()
-text = StringVar()
+taskdone = tk.StringVar()
+text = tk.StringVar()
 
 # Progressbar
-bar = Progressbar(start, orient=HORIZONTAL, length=300)
+bar = Progressbar(start, orient=tk.HORIZONTAL, length=300)
 
 # Labels
-percentlabel = Label(start, textvariable=taskdone)
-tasklabel = Label(start, textvariable=text)
+percentlabel = tk.Label(start, textvariable=taskdone)
+tasklabel = tk.Label(start, textvariable=text)
 
 # Buttons
-startbu=Button(start, text="Click here to start", command=startbar)
+startbu= tk.Button(start, text="Click here to start", command=startbar)
 
 # Showing the elements
 bar.pack(pady=20)
