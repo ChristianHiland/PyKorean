@@ -2,8 +2,7 @@
 It's a Korean dictionary, but in Python for projects that are in need of Korean to English or any other I put!
 
 The module has:
-
-Korean to English
+61 words in a module
 
 English to Korean
 

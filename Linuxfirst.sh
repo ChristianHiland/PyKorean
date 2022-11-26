@@ -10,9 +10,6 @@ if [[ "$(python3 -V)" =~ "Python 3" ]]:
     echo installing tkinter
     pip install tkinter
     pip install tk
-
-    echo "Running"
-    python3 main.py
 else:
     sudo apt-get update
     sudo apt-get install python3.6
@@ -22,5 +19,5 @@ else:
     pip install tkinter
     pip install tk
 
-    echo "Running"
-    python3 main.py
+echo "Running"
+/bin/python3 main.py
