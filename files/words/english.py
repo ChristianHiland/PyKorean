@@ -260,6 +260,40 @@ def korean():
             elif word == 'ten':
                 tk.Label(english, text="ten").pack()
                 tk.Label(english, text="십").pack()
+            elif word == 'how':
+                tk.Label(english, text="how").pack()
+                tk.Label(english, text="어떻게").pack()
+            elif word == 'you':
+                tk.Label(english, text="you").pack()
+                tk.Label(english, text="너").pack()
+            elif word == 'stop':
+                tk.Label(english, text="stop").pack()
+                tk.Label(english, text="멈추다").pack()
+            elif word == 'store':
+                tk.Label(english, text="store").pack()
+                tk.Label(english, text="가게").pack()
+            elif word == 'person':
+                tk.Label(english, text="person").pack()
+                tk.Label(english, text="사람").pack()
+            elif word == 'go to':
+                tk.Label(english, text="go to").pack()
+                tk.Label(english, text="이동").pack()
+            elif word == 'tired':
+                tk.Label(english, text="tired").pack()
+                tk.Label(english, text="피곤한").pack()
+            elif word == 'sleepy':
+                tk.Label(english, text="sleepy").pack()
+                tk.Label(english, text="졸린").pack()
+            elif word == 'feel':
+                tk.Label(english, text="feel").pack()
+                tk.Label(english, text="느끼다").pack()
+            elif word == 'to':
+                tk.Label(english, text="to").pack()
+                tk.Label(english, text="에게").pack()
+            elif word == 'channel':
+                tk.Label(english, text="channel").pack()
+                tk.Label(english, text="채널").pack()
+            
             else:
                 tk.Label(english, text="Opps we don't have that one, check again.").pack()
         koreanw()
