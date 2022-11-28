@@ -206,6 +206,42 @@ def korean():
             elif word == 'home':
                 tk.Label(english, text="home").pack()
                 tk.Label(english, text="음악").pack()
+            elif word == 'city':
+                tk.Label(english, text="city").pack()
+                tk.Label(english, text="도시").pack()
+            elif word == 'professor':
+                tk.Label(english, text="professor").pack()
+                tk.Label(english, text="교수").pack()
+            elif word == 'man':
+                tk.Label(english, text="man").pack()
+                tk.Label(english, text="남성").pack()
+            elif word == 'woman':
+                tk.Label(english, text="woman").pack()
+                tk.Label(english, text="여성").pack()
+            elif word == 'thing':
+                tk.Label(english, text="thing").pack()
+                tk.Label(english, text="물건").pack()
+            elif word == 'year':
+                tk.Label(english, text="year").pack()
+                tk.Label(english, text="년도").pack()
+            elif word == 'people':
+                tk.Label(english, text="people").pack()
+                tk.Label(english, text="사람들").pack()
+            elif word == 'fork':
+                tk.Label(english, text="fork").pack()
+                tk.Label(english, text="포크").pack()
+            elif word == 'goat':
+                tk.Label(english, text="goat").pack()
+                tk.Label(english, text="염소").pack()
+            elif word == 'child':
+                tk.Label(english, text="child").pack()
+                tk.Label(english, text="어린이").pack()
+            elif word == 'boat':
+                tk.Label(english, text="boat").pack()
+                tk.Label(english, text="어린이").pack()
+            elif word == 'water bottle':
+                tk.Label(english, text="water bottle").pack()
+                tk.Label(english, text="물 병").pack()
 
             # Verbs
             elif word == 'have':
