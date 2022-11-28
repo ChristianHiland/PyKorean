@@ -10,26 +10,32 @@ start= tk.Tk()
 start.geometry("400x200")
 start.title("Update Window")
 
-# Vars
+# URLs for the files
 home = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/files/homeh.py"
 english = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/files/words/english.py"
+readme1 = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/README.md"
+readme2 = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/files/words/README.md"
+linux = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/Linuxfirst.sh"
 
 # Actions
 def startbar():
     lang = 100
     x = 0
+    # This gets some of the files form GitHub and updates the other files. 
+    filename, headers = urllib.request.urlretrieve(home, filename="files/homeh.py")
+    filename, headers = urllib.request.urlretrieve(english, filename="files/words/english.py")
+    filename, headers = urllib.request.urlretrieve(readme1, filename="README.md")
+    filename, headers = urllib.request.urlretrieve(readme2, filename="files/words/README.md")
+    filename, headers = urllib.request.urlretrieve(linux, filename="Linuxfirst.sh")
+    
     while(x <lang):
         # This moves the progressbar.
-        time.sleep(0.01)
+        time.sleep(0.1)
         bar["value"]+=1
         x+=1
         taskdone.set(str(int((x/lang)*100))+"%")
-        text.set(str(x)+"/"+str(lang)+" loaded")
+        text.set(str(x)+"/"+str(lang)+" loaded words")
 
-        # This gets some of the files form GitHub and updates the other files.
-        filename, headers = urllib.request.urlretrieve(home, filename="files/homeh.py")
-        filename, headers = urllib.request.urlretrieve(english, filename="files/words/english.py")
-        
         # This updates the screen to show the screen.
         start.update_idletasks()
         
