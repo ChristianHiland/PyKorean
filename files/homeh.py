@@ -2,6 +2,7 @@
 import files
 from tkinter import *
 import tkinter as tk
+from .grammer import grammer
 
 def home():
    # Making the window name
@@ -15,17 +16,17 @@ def home():
    def english():
       main.destroy()
       files.english.korean()
-   def about():
-      main.destroy()
-      about.about.abouth()
-
+   def grammer():
+      grammer()
    # The buttons
    E = tk.Button(main, text ="English", command = english)
-   #A = tk.Button(main, text ="About", command = about)
    B = tk.Button(main, text="Back", command=main.quit)
+   G = tk.Button(main, text="Grammer", command= grammer)
+
    # Showing the elements.
    E.place(x=100, y=50)
-   #A.place(x=200, y=50)
    B.place(x=200, y=50)
+   G.place(x=150, y=100)
+
    # If this is not here the window will not stay opened.
    main.mainloop()
