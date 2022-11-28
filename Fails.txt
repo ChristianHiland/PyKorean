@@ -1,14 +1,1 @@
 
-[Nov, 18 2022 7:23]
-
-rune@RuneHiland:~/Documents/Code/Python/PyKorean$/bin/python3 /home/rune/Documents/Code/Python/PyKorean/main.py
-Exception in Tkinter callback
-Traceback (most recent call last):
-  File "/usr/lib/python3.9/tkinter/__init__.py", line 1892, in __call__
-    return self.func(*args)
-  File "/home/rune/Documents/Code/Python/PyKorean/main.py", line 11, in english
-    module.english.korean()
-  File "/home/rune/Documents/Code/Python/PyKorean/module/words/english.py", line 40, in korean
-    if word == 'hello':
-NameError: name 'word' is not defined
-rune@RuneHiland:~/Documents/Code/Python/PyKorean$ 
