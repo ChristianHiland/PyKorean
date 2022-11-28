@@ -2,7 +2,6 @@
 import files
 from tkinter import *
 import tkinter as tk
-from files.about import about
 
 def home():
    # Making the window name
