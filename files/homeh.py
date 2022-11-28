@@ -17,7 +17,7 @@ def home():
       main.destroy()
       files.english.korean()
    def grammar():
-      grammar()
+      grammar.home()
    # The buttons
    E = tk.Button(main, text ="English", command = english)
    B = tk.Button(main, text="Back", command=main.quit)
