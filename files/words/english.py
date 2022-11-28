@@ -20,119 +20,6 @@ def korean():
                 tk.Label(english, text="hello").pack()
                 tk.Label(english, text="안녕하세요").pack()
             
-            # Exclamation
-            elif word == 'yes':
-                tk.Label(english, text="yes").pack()
-                tk.Label(english, text="네").pack()
-    
-            # sentences
-            elif word == 'how are you?':
-                tk.Label(english, text="How are you?").pack()
-                tk.Label(english, text="안녕하십니까?").pack()
-
-            # Adjectve
-            elif word == 'cold':
-                tk.Label(english, text="cold").pack()
-                tk.Label(english, text="추운").pack()
-            elif word == 'alone':
-                tk.Label(english, text="alone").pack()
-                tk.Label(english, text="홀로").pack()
-            elif word == 'foreign':
-                tk.Label(english, text="foreign").pack()
-                tk.Label(english, text="외국의").pack()
-            elif word == 'typical':
-                tk.Label(english, text="typical").pack()
-                tk.Label(english, text="전형적인").pack()
-            elif word == 'close':
-                tk.Label(english, text="close").pack()
-                tk.Label(english, text="닫요").pack()
-            elif word == 'bad':
-                tk.Label(english, text="bad").pack()
-                tk.Label(english, text="나빠요").pack()
-            elif word == 'good':
-                tk.Label(english, text="good").pack()
-                tk.Label(english, text="즣아요").pack()
-            elif word == 'opposite':
-                tk.Label(english, text="opposite").pack()
-                tk.Label(english, text="반").pack()
-
-            # Numbers
-            elif word == 'one':
-                tk.Label(english, text="one").pack()
-                tk.Label(english, text="하나").pack()
-            elif word == 'two':
-                tk.Label(english, text="two").pack()
-                tk.Label(english, text="둘").pack()
-            elif word == 'three':
-                tk.Label(english, text="three").pack()
-                tk.Label(english, text="셋").pack()
-            elif word == 'four':
-                tk.Label(english, text="four").pack()
-                tk.Label(english, text="넷").pack()
-            elif word == 'five':
-                tk.Label(english, text="five").pack()
-                tk.Label(english, text="다섯").pack()
-            elif word == 'six':
-                tk.Label(english, text="six").pack()
-                tk.Label(english, text="여섯").pack()
-            elif word == 'seven':
-                tk.Label(english, text="seven").pack()
-                tk.Label(english, text="일곱").pack()
-            elif word == 'eight':
-                tk.Label(english, text="eight").pack()
-                tk.Label(english, text="여덟").pack()
-            elif word == 'nine':
-                tk.Label(english, text="nine").pack()
-                tk.Label(english, text="아홉").pack()
-            elif word == 'ten':
-                tk.Label(english, text="ten").pack()
-                tk.Label(english, text="십").pack()
-            elif. word == 'eleven':
-                tk.Label(english, text="eleven").pack()
-                tk.Label(english, text="열하나").pack()
-            elif. word == 'twelve':
-                tk.Label(english, text="twelve").pack()
-                tk.Label(english, text="열둘").pack()
-            elif. word == 'thirteen':
-                tk.Label(english, text="thirteen").pack()
-                tk.Label(english, text="열셋").pack()
-            elif. word == 'fourteen':
-                tk.Label(english, text="fourteen").pack()
-                tk.Label(english, text="십사").pack()
-            
-            # Adverb
-            elif word == 'how':
-                tk.Label(english, text="how").pack()
-                tk.Label(english, text="어떻게").pack()
-            elif word == 'away':
-                tk.Label(english, text="away").pack()
-                tk.Label(english, text="떨어져 있는").pack()
-            elif word == 'how':
-                tk.Label(english, text="how").pack()
-                tk.Label(english, text="어떻게").pack()
-            elif word == 'all':
-                tk.Label(english, text="all").pack()
-                tk.Label(english, text="다").pack()
-
-            # Animals
-            elif word == 'cat':
-                tk.Label(english, text="cat").pack()
-                tk.Label(english, text="고양이").pack()
-            elif word == 'dog':
-                tk.Label(english, text="dog").pack()
-                tk.Label(english, text="개").pack()
-            elif word == 'fish':
-                tk.Label(english, text="fish").pack()
-                tk.Label(english, text="생선").pack()
-            
-            # Type of people
-            elif word == 'german':
-                tk.Label(english, text="German").pack()
-                tk.Label(english, text="독일 사람").pack()
-            elif word == 'person':
-                tk.Label(english, text="person").pack()
-                tk.Label(english, text="사람").pack()
-            
             # Nouns
             elif word == 'time':
                 tk.Label(english, text="time").pack()
@@ -379,7 +266,115 @@ def korean():
             elif word == 'meet':
                 tk.Label(english, text="meet").pack()
                 tk.Label(english, text="만나요").pack()
+            
+            # Numbers
+            elif word == 'one':
+                tk.Label(english, text="one").pack()
+                tk.Label(english, text="하나").pack()
+            elif word == 'two':
+                tk.Label(english, text="two").pack()
+                tk.Label(english, text="둘").pack()
+            elif word == 'three':
+                tk.Label(english, text="three").pack()
+                tk.Label(english, text="셋").pack()
+            elif word == 'four':
+                tk.Label(english, text="four").pack()
+                tk.Label(english, text="넷").pack()
+            elif word == 'five':
+                tk.Label(english, text="five").pack()
+                tk.Label(english, text="다섯").pack()
+            elif word == 'six':
+                tk.Label(english, text="six").pack()
+                tk.Label(english, text="여섯").pack()
+            elif word == 'seven':
+                tk.Label(english, text="seven").pack()
+                tk.Label(english, text="일곱").pack()
+            elif word == 'eight':
+                tk.Label(english, text="eight").pack()
+                tk.Label(english, text="여덟").pack()
+            elif word == 'nine':
+                tk.Label(english, text="nine").pack()
+                tk.Label(english, text="아홉").pack()
+            elif word == 'ten':
+                tk.Label(english, text="ten").pack()
+                tk.Label(english, text="십").pack()
+            elif. word == 'eleven':
+                tk.Label(english, text="eleven").pack()
+                tk.Label(english, text="열하나").pack()
+            elif. word == 'twelve':
+                tk.Label(english, text="twelve").pack()
+                tk.Label(english, text="열둘").pack()
+            elif. word == 'thirteen':
+                tk.Label(english, text="thirteen").pack()
+                tk.Label(english, text="열셋").pack()
+            elif. word == 'fourteen':
+                tk.Label(english, text="fourteen").pack()
+                tk.Label(english, text="십사").pack()
+            
+            # Animals
+            elif word == 'cat':
+                tk.Label(english, text="cat").pack()
+                tk.Label(english, text="고양이").pack()
+            elif word == 'dog':
+                tk.Label(english, text="dog").pack()
+                tk.Label(english, text="개").pack()
+            elif word == 'fish':
+                tk.Label(english, text="fish").pack()
+                tk.Label(english, text="생선").pack()
+            
+            # Exclamation
+            elif word == 'yes':
+                tk.Label(english, text="yes").pack()
+                tk.Label(english, text="네").pack()
 
+            # Adjectve
+            elif word == 'cold':
+                tk.Label(english, text="cold").pack()
+                tk.Label(english, text="추운").pack()
+            elif word == 'alone':
+                tk.Label(english, text="alone").pack()
+                tk.Label(english, text="홀로").pack()
+            elif word == 'foreign':
+                tk.Label(english, text="foreign").pack()
+                tk.Label(english, text="외국의").pack()
+            elif word == 'typical':
+                tk.Label(english, text="typical").pack()
+                tk.Label(english, text="전형적인").pack()
+            elif word == 'close':
+                tk.Label(english, text="close").pack()
+                tk.Label(english, text="닫요").pack()
+            elif word == 'bad':
+                tk.Label(english, text="bad").pack()
+                tk.Label(english, text="나빠요").pack()
+            elif word == 'good':
+                tk.Label(english, text="good").pack()
+                tk.Label(english, text="즣아요").pack()
+            elif word == 'opposite':
+                tk.Label(english, text="opposite").pack()
+                tk.Label(english, text="반").pack()
+
+            # Adverb
+            elif word == 'how':
+                tk.Label(english, text="how").pack()
+                tk.Label(english, text="어떻게").pack()
+            elif word == 'away':
+                tk.Label(english, text="away").pack()
+                tk.Label(english, text="떨어져 있는").pack()
+            elif word == 'how':
+                tk.Label(english, text="how").pack()
+                tk.Label(english, text="어떻게").pack()
+            elif word == 'all':
+                tk.Label(english, text="all").pack()
+                tk.Label(english, text="다").pack()
+            
+            # Type of people
+            elif word == 'german':
+                tk.Label(english, text="German").pack()
+                tk.Label(english, text="독일 사람").pack()
+            elif word == 'person':
+                tk.Label(english, text="person").pack()
+                tk.Label(english, text="사람").pack()
+            
             # Preposition
             elif word == 'to':
                 tk.Label(english, text="to").pack()
@@ -411,6 +406,13 @@ def korean():
                 tk.Label(english, text="we").pack()
                 tk.Label(english, text="나").pack()
             
+            # sentences
+            elif word == 'how are you?':
+                tk.Label(english, text="How are you?").pack()
+                tk.Label(english, text="안녕하십니까?").pack()
+            elif word == 'how many words?':
+                tk.Label(english, text="There are 124 words in this dir").pack()
+            
             # Others
             elif word == 'many':
                 tk.Label(english, text="many").pack()
@@ -418,8 +420,7 @@ def korean():
             elif word == 'no':
                 tk.Label(english, text="no").pack()
                 tk.Label(english, text="아니요").pack()
-            elif word == 'how many words?':
-                tk.Label(english, text="There are 124 words in this dir").pack()
+
             else:
                 tk.Label(english, text="Opps we don't have that one, check again.").pack()
         koreanw()
