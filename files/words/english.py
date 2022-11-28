@@ -242,7 +242,31 @@ def korean():
             elif word == 'water bottle':
                 tk.Label(english, text="water bottle").pack()
                 tk.Label(english, text="물 병").pack()
-
+            elif word == 'life':
+                tk.Label(english, text="life").pack()
+                tk.Label(english, text="삶").pack()
+            elif word == 'way':
+                tk.Label(english, text="way").pack()
+                tk.Label(english, text="방법").pack()
+            elif word == 'state':
+                tk.Label(english, text="state").pack()
+                tk.Label(english, text="상태").pack()
+            elif word == 'family':
+                tk.Label(english, text="family").pack()
+                tk.Label(english, text="가족").pack()
+            elif word == 'world':
+                tk.Label(english, text="world").pack()
+                tk.Label(english, text="세계").pack()
+            elif word == 'group':
+                tk.Label(english, text="group").pack()
+                tk.Label(english, text="그룹").pack()
+            elif word == 'country':
+                tk.Label(english, text="country").pack()
+                tk.Label(english, text="국가").pack()
+            elif word == 'problem':
+                tk.Label(english, text="problem").pack()
+                tk.Label(english, text="문제").pack()
+            
             # Verbs
             elif word == 'have':
                 tk.Label(english, text="have").pack()
