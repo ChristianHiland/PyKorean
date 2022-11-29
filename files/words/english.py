@@ -165,6 +165,24 @@ def korean():
             elif word == 'problem':
                 tk.Label(english, text="problem").pack()
                 tk.Label(english, text="문제").pack()
+            elif word == 'big brother':
+                tk.Label(english, text="big brother").pack()
+                tk.Label(english, text="오빠").pack()
+            elif word == 'excuse me':
+                tk.Label(english, text="excuse me").pack()
+                tk.Label(english, text="실례합니다").pack()
+            elif word == "you're welcome":
+                tk.Label(english, text="you're welcome").pack()
+                tk.Label(english, text="천만에요").pack()
+            elif word == 'please':
+                tk.Label(english, text="please").pack()
+                tk.Label(english, text="주세요").pack()
+            elif word == 'baby':
+                tk.Label(english, text="baby/babe").pack()
+                tk.Label(english, text="아에니의").pack()
+            elif word == 'okey':
+                tk.Label(english, text="okey").pack()
+                tk.Label(english, text="괜").pack()
             
             # Verbs
             elif word == 'have':
