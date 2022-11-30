@@ -316,16 +316,16 @@ def korean():
             elif word == 'ten':
                 tk.Label(english, text="ten").pack()
                 tk.Label(english, text="십").pack()
-            elif. word == 'eleven':
+            elif word == 'eleven':
                 tk.Label(english, text="eleven").pack()
                 tk.Label(english, text="열하나").pack()
-            elif. word == 'twelve':
+            elif word == 'twelve':
                 tk.Label(english, text="twelve").pack()
                 tk.Label(english, text="열둘").pack()
-            elif. word == 'thirteen':
+            elif word == 'thirteen':
                 tk.Label(english, text="thirteen").pack()
                 tk.Label(english, text="열셋").pack()
-            elif. word == 'fourteen':
+            elif word == 'fourteen':
                 tk.Label(english, text="fourteen").pack()
                 tk.Label(english, text="십사").pack()
             
