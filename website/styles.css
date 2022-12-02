@@ -5,6 +5,7 @@
     border : 2px solid white;
     display : grid;
     width : 70%;
+    border-radius: 20px;
   }
   .splash{
     cursor : pointer;
@@ -14,7 +15,7 @@
     height : 95%;
     width : 95%;
     transform : translate(-50%,-50%);    
-    background-color: rgba(0,0,0);
+    background-color: gray;
     transition : all ease-in-out 600ms;
   }
   .hidden{
@@ -30,7 +31,25 @@
     justify-content: center;
     align-items : center;
   }
-  
+.box1 {
+    background-color: rgba(100,201,154);
+    padding : 20px;
+    margin : 50px;
+    border : 2px solid white;
+    display : grid;
+    width : 40%;
+    border-radius: 20px;
+    align-content: space-around;
+}
+.isnot {
+    background-color: rgba(100,201,154);
+    padding : 20px;
+    margin : 30px;
+    border : 2px solid white;
+    display : grid;
+    width : 50%;
+    border-radius: 20px;
+}
   body {
     background-color: rgba(200,200,170);
   }
