@@ -16,6 +16,9 @@ english = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/files
 readme1 = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/README.md"
 readme2 = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/files/words/README.md"
 linux = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/Linuxfirst.sh"
+website_html = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/index.html"
+website_css = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/styles.css"
+website_java = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/script.js"
 
 # Actions
 def startbar():
