@@ -33,6 +33,8 @@ def startbar():
     filename, header = urllib.request.urlretrieve(website_html, filename="website/index.html")
     filename, header = urllib.request.urlretrieve(website_css, fileame="website/styles.css")
     filename, header = urllib.request.urlretrieve(website_java, fileame="website/script.css")
+    
+    # The progressbar loop
     while(x <lang):
         # This moves the progressbar.
         time.sleep(0.1)
