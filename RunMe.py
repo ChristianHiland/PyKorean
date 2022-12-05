@@ -31,8 +31,8 @@ def startbar():
     filename, headers = urllib.request.urlretrieve(readme2, filename="files/words/README.md")
     filename, headers = urllib.request.urlretrieve(linux, filename="Linuxfirst.sh")
     filename, header = urllib.request.urlretrieve(website_html, filename="website/index.html")
-    filename, header = urllib.request.urlretrieve(website_css, fileame="website/styles.css")
-    filename, header = urllib.request.urlretrieve(website_java, fileame="website/script.css")
+    filename, header = urllib.request.urlretrieve(website_css, filename="website/styles.css")
+    filename, header = urllib.request.urlretrieve(website_java, filename="website/script.css")
     
     # The progressbar loop
     while(x <lang):
