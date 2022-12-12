@@ -429,7 +429,7 @@ def korean():
                 tk.Label(english, text="How are you?").pack()
                 tk.Label(english, text="안녕하십니까?").pack()
             elif word == 'how many words?':
-                tk.Label(english, text="There are 124 words in this dir").pack()
+                tk.Label(english, text="There are 133 words in this dir").pack()
             
             # Others
             elif word == 'many':
