@@ -45,10 +45,20 @@ words = {
     "가": "가: go",
     "away": "away: 떨어져 있는: ddeoleojyeo ssneun",
     "떨어져 있는": "떨어져 있는: away",
+    "close": "close: 닫요: dad",
+    "닫요": "닫요: close",
     
     # Actions
     "take": "take: 테이크: teipeu",
     "테이크": "테이크: take",
+    "read": "read: 읠: euil",
+    "읠": "읠: read",
+    "learn": "learn: 배우: baeu",
+    "배우": "배우: learn",
+    "study": "study: 공부하: gongbuha",
+    "공부하": "공부하요: study",
+    "meet": "meet: 만나: manna",
+    "만나요": "만나요: meet",
     
     # Pronouns & People
     "you": "you: 너: ne",
@@ -81,12 +91,18 @@ words = {
     # Other
     "to": "to: 에게: ege",
     "에게": "에게: to",
+    "many": "many: 많은: manheun",
+    "많은": "많은: many",
     
     # Feel
     "cold": "cold: 추운: chun",
     "추운": "추운: cold",
     "alone": "alone: 홀로: hodlo",
     "홀로": "홀로: alone",
+    "bad": "bad: 나빠요: nabba",
+    "나빠요": "나빠요: bad",
+    "good": "good: 즣아요: cheuha",
+    "즣아요": "즣아요: good",
     
     # Animals
     "cat": "cat: 고양이: goyeongi",
@@ -107,17 +123,23 @@ numbers = {
     # One
     "one": "One: 하나: hana",
     "1": "one: 하나: hana",
-    "하나": "하나: 1: one"
+    "하나": "하나: 1: one",
 
     # Two
+    "two": "two: 둘: dol",
+    "2": "two: 둘: dol",
+    "둘": "둘: two"
 }
 numberss = {
     # One
     "one": "One: 일: il",
     "1": "One: 일: il",
-    "일": "일: 1: one"
+    "일": "일: 1: one",
 
     # Two
+    "two": "two: 이: ee",
+    "2": "two: 이: ee",
+    "이": "이: two"
 }
 
 # Gets the user input for the choise
