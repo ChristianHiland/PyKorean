@@ -1,4 +1,3 @@
 #!/bin/sh
-chmod u+x main.sh
 
-python main.py
+python3 main.py
