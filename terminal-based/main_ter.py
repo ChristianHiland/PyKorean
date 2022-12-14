@@ -2,76 +2,122 @@
 words = {
     # Greetings
     "hello": "hello: 안녕하세요: annyeonghaseyo",
+    "안녕하세요": "안녕하세요: hello",
     
     # Answering words
     "yes": "yes: 네: ne",
+    "네": "네: yes",
     "no": "no: 아니요: aniyo",
+    "아니요": "아니요: no",
     
     # Time
     "time": "time: 시각: sigak",
+    "시각": "시각: time",
     "times": "times: 타임스: taimseu",
+    "타임스": "타임스: taimseu: times",
     "day": "day: 낮: nach",
+    "낮": "낮: nach: day",
     
     # Things
     "gas": "gas: 가스: gaseu",
+    "가스": "가스: gas",
     "air": "air: 공기: gongki",
+    "공기": "공기: air",
     "language": "language: 언어: eoneo",
+    "언어": "언어: language",
     "word": "word: 단어: daneo",
+    "단어": "단어: word",
     "news": "news: 뉴스: nyuseu",
+    "뉴스": "뉴스: news",
 
     # Places
     "country": "country: 국가: gukga",
+    "국가": "국가: country",
     "store": "store: 가게: gake",
+    "가게": "가게: store",
     "at": "at: ~에: ~e",
+    "에": "에: at",
     
     # Movement
     "back": "back: 뒤: dwi",
-    "go": "go: 가요: ga",
+    "뒤": "뒤: back",
+    "go": "go: 가: ga",
+    "가": "가: go",
     "away": "away: 떨어져 있는: ddeoleojyeo ssneun",
+    "떨어져 있는": "떨어져 있는: away",
     
     # Actions
     "take": "take: 테이크: teipeu",
+    "테이크": "테이크: take",
     
     # Pronouns & People
     "you": "you: 너: ne",
+    "너": "너: you",
     "mr": "Mr, Ms, Mrs: 씨: ssi",
+    "씨": "씨: Mr, Ms, Mrs",
     "i": "I: 나: na",
+    "나": "나: I",
     "she": "she: 여자: yeocha",
+    "여자": "여자: she",
     "he": "he: 그: geu",
+    "그": "그: he",
     "they": "they: 그들: geudeul",
+    "그들": "그들: they",
     "we": "we: 나: na",
+    "나": "나: we",
     "all": "all: 다: da",
+    "다": "다: all",
     "german": "german: 독일 사람: donil saram",
+    "독일 사람": "독일 사람: german",
     "person": "person: 사람: saram",
+    "사람": "사람: person",
     "foreign": "foreign: 외국의: winunui",
+    "외국의": "외국의; foreign",
     
     # Asking words
     "how": "how: 어떻게: eoddeohge",
+    "어떻게": "어떻게: how",
     
     # Other
     "to": "to: 에게: ege",
+    "에게": "에게: to",
     
     # Feel
     "cold": "cold: 추운: chun",
+    "추운": "추운: cold",
     "alone": "alone: 홀로: hodlo",
+    "홀로": "홀로: alone",
     
     # Animals
     "cat": "cat: 고양이: goyeongi",
+    "고양이": "고양이: cat",
     "dog": "dog: 개: gae",
+    "개": "개: dog",
     "fish": "fish: 생선: saengseon",
+    "생선": "생선: fish"
 }
 
 # The greetings
 greetings = {
-    "how are you": "How are you?: 안녕하십니까?: annyeonghasibnigga?"
+    "how are you": "How are you?: 안녕하십니까?: annyeonghasibnigga?",
+    "안녕하십니까": "안녕하십니까?: How are you?"
 }
 
 numbers = {
-    "one": "One: 하나: hana"
+    # One
+    "one": "One: 하나: hana",
+    "1": "one: 하나: hana",
+    "하나": "하나: 1: one"
+
+    # Two
 }
 numberss = {
+    # One
     "one": "One: 일: il",
-    "1": "One: 일: il"
+    "1": "One: 일: il",
+    "일": "일: 1: one"
+
+    # Two
 }
 
 # Gets the user input for the choise
@@ -99,10 +145,12 @@ elif option == str(3):
 elif option == str(4):
     number = input("#: ")
     print(" ")
-    print("Native Korean")
+
+    print("////// Native Korean //////")
     print(numbers[str(number)])
     print(" ")
-    print("Sino Korean")
+    
+    print("//////  Sino Korean  //////")
     print(numberss[str(number)])
 else:
     print("Sorry that's that an option.")
