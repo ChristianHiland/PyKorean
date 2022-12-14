@@ -1,4 +1,0 @@
-pip install pyinstaller
-
-cd /terminal-based
-pyinstaller --onefile main_ter.py
