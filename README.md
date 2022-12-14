@@ -8,16 +8,7 @@ English to Korean
 
 # How to use
 
-This is how you use it 
+If it's your first time running then run Linuxfirst
+if it's a secend time then run LinuxGUI for the GUI version of the program
 
-You import it as:
-module
-
-you type module. and then the language you are typing in.
-
-EX:
-module.english.koreantk()
-
-English is the language that you are typing from. and then Koreantk is the ouput language.
-
-The Koreantk is to help with organization with Tkinter tk is for Tkinter.
+If your using terminal then use LinuxTer.sh
