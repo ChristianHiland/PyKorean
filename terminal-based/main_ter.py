@@ -142,6 +142,61 @@ numberss = {
     "이": "이: two"
 }
 
+
+def option1():
+    word = input("Word: ")
+    # Gets the user input and then goes to the words dir to get the word.
+    print(" ")
+    theword = words[str(word)]
+    print(theword.replace(":", ","))
+    continued  = input("Continue? [Y/N]: ")
+    if continued == "Y":
+        option1()
+    else:
+        whilestate()
+def option3():
+    greeting = input("Greeting: ")
+    print(" ")
+    thewords = greetings[str(greeting)]
+    print(thewords.replace(":", ","))
+    continued  = input("Continue? [Y/N]: ")
+    if continued == "Y":
+        option2()
+    else:
+        whilestate()
+def option4():
+    number = input("#: ")
+    print(" ")
+    print("////// Native Korean //////")
+    print(numbers[str(number)])
+    print(" ")
+            
+    print("//////  Sino Korean  //////")
+    print(numberss[str(number)])
+    continued  = input("Continue? [Y/N]: ")
+    if continued == "Y":
+        option2()
+    else:
+        whilestate()
+
+def whilestate():
+    option = input("Option: ")
+    le = 0
+    while le < 1:
+        if option == str(1):
+            option1()
+        elif option == str(2):
+            print(words)
+            le += 1
+        elif option == str(3):
+            option3()
+        elif option == str(4):
+            option4()
+        else:
+            print("Sorry that's that an option.")
+            le += 1
+            whilestate()
+
 # Gets the user input for the choise
 print("////////////////////////////////////////////////")
 print("/////               Options                /////")
@@ -149,31 +204,4 @@ print("/////  1. find the words 2. List all words /////")
 print("/////  3. Greetings      4. Numbers        /////")
 print("////////////////////////////////////////////////")
 print("       ")
-option = input("Option: ")
-
-if option == str(1):
-    word = input("Word: ")
-    # Gets the user input and then goes to the words dir to get the word.
-    print(" ")
-    theword = words[str(word)]
-    print(theword.replace(":", ","))
-elif option == str(2):
-    print(words)
-elif option == str(3):
-    greeting = input("Greeting: ")
-    print(" ")
-    thewords = greetings[str(greeting)]
-    print(thewords.replace(":", ","))
-elif option == str(4):
-    number = input("#: ")
-    print(" ")
-
-    print("////// Native Korean //////")
-    print(numbers[str(number)])
-    print(" ")
-    
-    print("//////  Sino Korean  //////")
-    print(numberss[str(number)])
-else:
-    print("Sorry that's that an option.")
-    
+whilestate()
