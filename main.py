@@ -19,6 +19,7 @@ linux = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/Linuxfi
 website_html = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/index.html"
 website_css = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/styles.css"
 website_java = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/website/script.js"
+teminel_based = "https://raw.githubusercontent.com/ChristianHiland/PyKorean/main/terminal-based/main_ter.py"
 
 # Actions
 def startbar():
@@ -33,6 +34,7 @@ def startbar():
     filename, header = urllib.request.urlretrieve(website_html, filename="website/index.html")
     filename, header = urllib.request.urlretrieve(website_css, filename="website/styles.css")
     filename, header = urllib.request.urlretrieve(website_java, filename="website/script.css")
+    filename, header = urllib.request.urlretrieve(teminel_based, filename="terminal-based/main_ter.py")
     
     # The progressbar loop
     while(x <lang):
