@@ -190,7 +190,7 @@ numberss = {
 
 # The sets
 sets = {
-    "1": "The ㄴ (n) is pronounced n, but shorted. ㅇ is not pronounced, unless it's at the end of a word thing, then it will be pronounced ng./n ㄷ is pronounced as t, but in the ending it's pronounced as d.",
+    "1": "The ㄴ (n) is pronounced n, but shorted. ㅇ is not pronounced, unless it's at the end of a word thing, then it will be pronounced ng. ㄷ is pronounced as t, but in the ending it's pronounced as d, ㅅ is pronounced as s. ㄱ is sometimes pronounced as k or a g.",
     "1a": "Sorry I haven't added this yet. :( ㄴ ㅇ ㄷ ㅅ ㄱ",
     "2": "Sorry I haven't added this yet. :(",
     "2a": "Sorry I haven't added this yet. :(",
