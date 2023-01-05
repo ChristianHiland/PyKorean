@@ -224,6 +224,26 @@ def option4():
         option2()
     else:
         whilestate()
+# The 
+def option5():
+    
+    # Telling the user what sets there are.
+    print("/////////////////////////////////////////////////////////////////////////////")
+    print("//// Set 1: This set includes the pronunciation of 'ㄴ ㅇ ㄷ ㅅ ㄱ'        ////")
+    print("//// Set 1a: This set includes the pronunciation rules of 'ㄴ ㅇ ㄷ ㅅ ㄱ' ////")
+    print("//// Set 2 This set includes the pronunciation of 'ㅁ ㅏ ㅣ ㅗ ㅔ'         ////")
+    print("//// Set 2a: This set includes the pronunciation rules of 'ㅁ ㅏ ㅣ ㅗ ㅔ' ////")
+    print("/////////////////////////////////////////////////////////////////////////////")
+    print("")
+    print("Each set has different lessons on how to pronunciation each letter.")
+    set = input("Set #: ")
+    theset = sets[str(set)]
+    print(theset)
+    continued  = input("Continue? [Y/N]: ")
+    if continued == "Y":
+        option1()
+    else:
+        whilestate()
 
 def whilestate():
     option = input("Option: ")
@@ -238,6 +258,8 @@ def whilestate():
             option3()
         elif option == str(4):
             option4()
+        elif option == str(5):
+            option5()
         else:
             print("Sorry that's that an option.")
             le += 1
@@ -248,6 +270,7 @@ print("////////////////////////////////////////////////")
 print("/////               Options                /////")
 print("/////  1. find the words 2. List all words /////")
 print("/////  3. Greetings      4. Numbers        /////")
+print("/////  5. pronunciation rules              /////")
 print("////////////////////////////////////////////////")
 print("       ")
 whilestate()
