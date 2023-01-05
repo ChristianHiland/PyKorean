@@ -188,6 +188,14 @@ numberss = {
     "이": "이: two"
 }
 
+# The sets
+sets = {
+    "1": "Sorry I haven't added this yet. :(",
+    "1a": "Sorry I haven't added this yet. :(",
+    "2": "Sorry I haven't added this yet. :(",
+    "2a": "Sorry I haven't added this yet. :(",
+}
+
 
 def option1():
     word = input("Word: ")
