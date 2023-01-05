@@ -190,8 +190,8 @@ numberss = {
 
 # The sets
 sets = {
-    "1": "Sorry I haven't added this yet. :(",
-    "1a": "Sorry I haven't added this yet. :(",
+    "1": "The ㄴ (n) is pronounced n, but shorted. ㅇ is not pronounced, unless it's at the end of a word thing, then it will be pronounced ng./n ㄷ is pronounced as t, but in the ending it's pronounced as d.",
+    "1a": "Sorry I haven't added this yet. :( ㄴ ㅇ ㄷ ㅅ ㄱ",
     "2": "Sorry I haven't added this yet. :(",
     "2a": "Sorry I haven't added this yet. :(",
 }
@@ -243,7 +243,7 @@ def option5():
     print("//// Set 2a: This set includes the pronunciation rules of 'ㅁ ㅏ ㅣ ㅗ ㅔ' ////")
     print("/////////////////////////////////////////////////////////////////////////////")
     print("")
-    print("Each set has different lessons on how to pronunciation each letter.")
+    print("Each set has different lessons on how to pronounce each letter.")
     set = input("Set #: ")
     theset = sets[str(set)]
     print(theset)
