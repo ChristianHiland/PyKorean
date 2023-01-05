@@ -17,6 +17,26 @@ words = {
     "타임스": "타임스: taimseu: times",
     "day": "day: 낮: nach",
     "낮": "낮: nach: day",
+    "Monday": "Monday: 월요일: woryoil",
+    "월요일": "월요일: Monday",
+    "Tuesday": "Tuesday: 화요일: hwayoil",
+    "화요일": "화요일: Tuesday",
+    "Wednesday": "Wednesday: 수요일: suyoil",
+    "수요일": "수요일: Wednesday",
+    "Thursday": "Thursday: 목요일: mogyoil",
+    "목요일": "목요일: Thursday",
+    "Friday": "Friday: 금요일: geumyoil",
+    "금요일": "금요일: Friday",
+    "Saturday": "Saturday: 토요일: toyoil",
+    "토요일": "토요일: Saturday",
+    "Sunday": "Sunday: 일요일: iryoil",
+    "일요일": "일요일: Sunday",
+    "hour": "hour: 시: si",
+    "시": "시: hour",
+    "minute": "minute: 분: bun",
+    "분": "분: minute",
+    "second	": "second: 초: cho",
+    "초": "초: second",
     
     # Things
     "gas": "gas: 가스: gaseu",
@@ -29,6 +49,8 @@ words = {
     "단어": "단어: word",
     "news": "news: 뉴스: nyuseu",
     "뉴스": "뉴스: news",
+    "vocabulary": "vocabulary: 어휘: eohwi",
+    "어휘": "어휘: vocabulary",
 
     # Places
     "country": "country: 국가: gukga",
@@ -37,6 +59,12 @@ words = {
     "가게": "가게: store",
     "at": "at: ~에: ~e",
     "에": "에: at",
+    "Australia": "Australia: 호주: hoju",
+    "호주": "호주: Australia",
+    "USA": "USA: 미국: miguk",
+    "US": "US: 미국: miguk",
+    "미국": "미국: USA",
+
     
     # Movement
     "back": "back: 뒤: dwi",
@@ -85,8 +113,16 @@ words = {
     "외국의": "외국의; foreign",
     
     # Asking words
-    "how": "how: 어떻게: eoddeohge",
-    "어떻게": "어떻게: how",
+    "how": "how?: 어떻게?: eoddeohge",
+    "어떻게?": "어떻게: how?",
+    "what?": "what?: 무엇을?: mueoseur?",
+    "무엇을": "무엇을?: what?",
+    "who": "who?: 누가?: nuga?",
+    "누가": "누가: who",
+    "why?": "why?: 왜?: wae?",
+    "왜": "왜: why",
+    "where?": "where?: 어디로?: eodiro?",
+    "어디로": "어디로: where",
     
     # Other
     "to": "to: 에게: ege",
@@ -110,15 +146,25 @@ words = {
     "dog": "dog: 개: gae",
     "개": "개: dog",
     "fish": "fish: 생선: saengseon",
-    "생선": "생선: fish"
-}
+    "생선": "생선: fish",
 
+    # Languages
+    "languages": "Languages: 언어: eoneo",
+    "언어": "언어: languages",
+    "Korean": "Korean: 한국어: hangugeo",
+    "한국어": "한국어: Korean",
+    "English": "English: 영어: yeongeo",
+    "영어": "영어: English",
+    "Japanese": "Japanese: 일본어: ilboneo",
+    "일본어": "일본어: Japanese"
+}
 # The greetings
 greetings = {
     "how are you": "How are you?: 안녕하십니까?: annyeonghasibnigga?",
     "안녕하십니까": "안녕하십니까?: How are you?"
 }
 
+# The numbers
 numbers = {
     # One
     "one": "One: 하나: hana",
