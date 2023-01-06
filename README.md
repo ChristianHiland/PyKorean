@@ -5,6 +5,7 @@ The module has:
 133 words in a module
 
 English to Korean
+Korean to English
 
 # How to use
 
