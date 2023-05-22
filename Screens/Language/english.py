@@ -3,6 +3,7 @@ from customtkinter import *
 import tkinter as tk
 from Screens.Language.Dictionary.words import wordsEnglish
 from Screens.Language.EnglishSen import EnglishScreenS
+import json
 
 def EnglishScreen():
     # Setting up the theme.
@@ -12,16 +13,18 @@ def EnglishScreen():
     englishScreen.geometry("900x500")
     englishScreen.title("PyKorean - Language English & Korean")
     from Screens.Define import TitleFont, OutFont
+    Dicionary = "Screens/Language/Dicionary/Words.json"
 
     # Actions
     def Enter():
+        # Printing the Korean word from the Dicionary.
         text = entry.get()
-        LowText = str(text.lower())
-        LowTextSplit = LowText.split()
-        theword = wordsEnglish[str(LowText)]
-        newText = str(theword.replace(":", ","))
-        output.set(str(newText))
-        englishScreen.update_idletasks()
+        with open(Dicionary, "r") as Words:
+            Data = json.load(Words)
+            LowText = str(text.lower())
+            theword = Data['English'][str(LowText)]
+            output.set(str(newText))
+            englishScreen.update_idletasks()
     def sentenceMode():
         EnglishScreenS()
     

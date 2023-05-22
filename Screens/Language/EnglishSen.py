@@ -21,7 +21,7 @@ def EnglishScreenS():
         elif typeMenu == str("Sentence"):
             TypeDir = "Sentence"
         else:
-                print(typeMenu)
+            print(typeMenu)
     def Enter():
         text = entry.get()
         LowText = str(text.lower())
