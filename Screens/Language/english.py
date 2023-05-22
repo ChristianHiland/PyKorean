@@ -23,7 +23,7 @@ def EnglishScreen():
             Data = json.load(Words)
             LowText = str(text.lower())
             theword = Data['English'][str(LowText)]
-            output.set(str(newText))
+            output.set(str(theword))
             englishScreen.update_idletasks()
     def sentenceMode():
         EnglishScreenS()
