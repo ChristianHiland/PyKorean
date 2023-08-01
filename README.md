@@ -12,4 +12,5 @@ There is over 60 words in version 1.4
 
 # Running The App
 To run PyKorean:
- - For Linux: Run the Run.sh Command
+ - For Linux: Run the Run.sh files
+ - For Windows: Run the Run.bat (This may not work!)
