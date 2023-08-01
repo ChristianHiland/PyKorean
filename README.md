@@ -9,3 +9,7 @@ There isn't any runables for any OSs right now but in Linux there is as long as 
 Developer/Layout: Christian
 
 There is over 60 words in version 1.4
+
+# Running The App
+To run PyKorean:
+ - For Linux: Run the Run.sh Command
